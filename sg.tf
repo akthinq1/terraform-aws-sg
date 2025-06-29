@@ -1,5 +1,5 @@
 resource "aws_security_group" "main" {
-  name        = var.project_name
+  # name        = var.project_name
   description = var.sg_description
   vpc_id      = var.vpc_id
 
