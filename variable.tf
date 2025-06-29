@@ -1,6 +1,6 @@
-# variable "sg_name" {
-#   type = string
-# }
+variable "sg_name" {
+  type = string
+}
 
 variable "project_name" {
   type = string
